@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Hangman Game</title>
+	<i class="fas fa-fighter-jet"></i>
+	<!--""-->
+       <link rel="stylesheet" href="css/main.css"> 
+	<link rel="icon" href="/image/favicon.ico" type="image/x-icon">
+	
+    
+<link rel="stylesheet"    
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"    
+          integrity=        
+          "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+          crossorigin="anonymous">
+</head>
+<body>
+	
+	<header>
+		<h1>Hangman</h1>
+	</header>
+    <div class="section">
+        <img id='hangmanPic' src="./images/0.png" alt="">
+    	<h2 id="words-h2"></h2>
+            
+    	<button id="word-btn">Get Word</button>
+        <input type="text" name="input" id="inp" placeholder="input a single letter" minlength="1" maxlength="1" onkeyup="this.value=this.value.toUpperCase();">
+        <button id="guess-btn">Guess</button>
+
+    	<p id="instruct-p"></p>
+
+    </div>
+    
+    <table border="1" id="score-tb">
+    	<caption>Score</caption>
+    	<thead>
+    		<tr>
+    			<th>Correct</th><th>Wrong</th><th>Lives</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+    	<!--
+        <tr>
+    		<td>1946</td><td>nil</td><td>Truman Doctrine</td>
+    	</tr>
+    	<tr>
+    		<td>nil</td><td>Stalin Speech</td>
+    	</tr>
+    -->
+    	</tbody>
+    	<tfoot>
+    		
+    	</tfoot>
+    </table>
+
+    
+    <script src="js/code.js"></script>
+
+ </body>
+ </html>
