@@ -1,4 +1,4 @@
-# hangman
+# Hangman
 Tiktok Youth Camp 2022 May certification
 
 In 2022 May, tiktok provided lectures for html, css, javascript, react, web engineering, networking and other web development related topics. We were to do either a web application or mobile application. 
